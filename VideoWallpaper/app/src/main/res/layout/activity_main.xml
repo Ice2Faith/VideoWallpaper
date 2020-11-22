@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+        <VideoView
+            android:id="@+id/videoViewPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#afff"
+            />
+
+        <ListView
+            android:id="@+id/listViewVdos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+        <CheckBox
+            android:id="@+id/checkBoxOpenAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启声音"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#6655ff77"/>
+
+        <Button
+            android:id="@+id/buttonViewFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件浏览"
+            android:onClick="OnBtnViewFileClicked"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#445577ff"/>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
