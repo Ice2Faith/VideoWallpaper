@@ -35,6 +35,26 @@
             android:layout_marginBottom="20dp"
             android:background="#6655ff77"/>
 
+        <CheckBox
+            android:id="@+id/checkBoxPlayInDirMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件夹播放"
+            android:layout_gravity="bottom|left"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#6655ff77"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPlayRandomMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="随机播放"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#6655ff77"/>
+
         <Button
             android:id="@+id/buttonViewFile"
             android:layout_width="wrap_content"
